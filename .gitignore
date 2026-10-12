@@ -1,0 +1,30 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local Python environments and IDE settings
+.venv/
+venv/
+env/
+.idea/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Generated packaging output
+build/
+dist/
+*.egg-info/
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep the supplied .pth weights and plane/*.obj mesh assets tracked.
